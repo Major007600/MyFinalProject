@@ -1,0 +1,74 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Satisfy');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/**header**/
+.flex {
+  display:flex;
+  height: 100%;
+  justify-content:space-between;
+  align-items: center;
+}
+.brand{
+  font-family: 'satisfy',cursive;
+  color: #fd837e;  //base orange
+  font-size: 24px;
+}
+.logo{
+  height: 92px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: transparent;
+  color: #69B1E4; //powder blue
+  font-size: 20px;
+
+}
+.nav-pills>li>a{
+  color: #69b1e4;
+  font-size: 20px;
+
+}
+/*jumbotron style starts*/
+.jumbotron{
+  background-image: url('../img/sky1.jpg');
+  height: 475px;
+  background-position: center;
+  background-size: cover;
+}
+.jumbotron>p{
+  color: #fff;
+  font-size: 2em;
+  margin-top: 36px;
+}
+.thumbnail{
+  padding: 6px;
+  background-color: #edf1fa;
+  border: none;
+}
+footer{
+  padding-top: 45px;
+}
+
+
+footer,footer a, footer a:hover {
+  background-color: #231f20;
+  color: #b9babb;
+  text-decoration: none;
+}
+footer.logo{
+  position: relative;
+  left: -55;
+}
+.middle{
+  border-left: 1px solid #313030;
+  border-right: 1px solid #313030;
+}
+/*Media Queries*/
+@media screen and(max-width: 992px){
+  footer .logo{
+  position: static;
+}
+
+}
